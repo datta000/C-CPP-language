@@ -12,5 +12,5 @@ int main()
         printf("%d*", n);
     };
     printf("\nthe factorial is %d ", fact);
-    return 0;
+    getch();
 }
