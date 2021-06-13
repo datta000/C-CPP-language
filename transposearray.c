@@ -19,15 +19,9 @@ void main()
         }
         printf("\n");
     }
-    // for (row = 0; row < 3; row++)
-    // {
-    //     for (colmn = 0; colmn < 3; colmn++)
-    //     {
-    //         a[colmn][row] = a[row][colmn];
-    //     }
-    // }
-    printf("the transpose of matrix is\n");
-    for (row = 0; row < 3; row++)
+    
+        printf("the transpose of matrix is\n");
+    for (row = 0; row < 3; row)
     {
         for (colmn = 0; colmn < 3; colmn++)
         {
