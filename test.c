@@ -3,10 +3,10 @@
 
 int main()
 {
-    int a, b, c;
+    int a, b;
     a = 1;
     b = ++a;
-    c = b+1;
-    printf("%d%d%d", a, b, c);
+    
+    printf("%d%d", a, b);
     return 0;
 }
