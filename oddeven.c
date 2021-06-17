@@ -3,15 +3,15 @@
 main()
 {
     int n;
-    printf("enter any number");
+    printf("enter your age");
     scanf("%d", &n);
-    if (n % 2 == 0)
+    if (n >= 18)
     {
-        printf("the number is even");
+        printf("you are eligible for voting");
     }
     else
     {
-        printf("the number is odd");
+        printf("you are not eligible for voting");
     }
     getch();
 }

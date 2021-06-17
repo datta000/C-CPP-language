@@ -1,12 +1,22 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main()
+void main()
 {
-    int a, b;
-    a = 1;
-    b = ++a;
-    
-    printf("%d%d", a, b);
-    return 0;
+    int i;
+    printf("enter any number");
+    scanf("%d", &i);
+    if (i> 0)
+    {
+        printf("the number is positive");
+    }
+    else if(i<0)
+    {
+        printf("the number is negetive");
+    }
+    else
+    {
+        printf("the number is zero");
+    }
+    getch();
 }
