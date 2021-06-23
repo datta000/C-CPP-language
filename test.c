@@ -1,22 +1,30 @@
 #include <stdio.h>
-#include <conio.h>
-
-void main()
+#include <stdlib.h>
+int biggestNumber(int, int, int);
+int main()
 {
-    int i;
-    printf("enter any number");
-    scanf("%d", &i);
-    if (i> 0)
-    {
-        printf("the number is positive");
-    }
-    else if(i<0)
-    {
-        printf("the number is negetive");
-    }
-    else
-    {
-        printf("the number is zero");
-    }
+    int a, b, c;
+    printf("Enter any the three numbers\n");
+    scanf("%d%d%d", &a, &b, &c);
+
+    int result = biggestNumber(a, b, c);
+    printf("the largest number is: %d\n", result);
     getch();
+    return 0;
+}
+int biggestNumber(int a, int b, int c)
+{ //function definition with parameter
+    if (a > b && a > c)
+    {
+
+        return a;
+    }
+    else if (b > c && b > a)
+    {
+        return b;
+    }
+    else if (c > b && c > a)
+    {
+        return c;
+    }
 }
