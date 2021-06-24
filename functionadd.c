@@ -13,5 +13,5 @@ int sum(int p, int q)
 {
     int p,q,sum;
     int y;
-   y = p + q;
+    y = p + q;
 }
