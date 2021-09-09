@@ -13,4 +13,4 @@ main()
     }
     printf("%d", sum);
     getch();
-}
+} 
