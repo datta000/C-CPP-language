@@ -11,6 +11,10 @@ int main()
         {
             continue;
         }
+        else if (i % 25 == 0)
+        {
+            break;
+        }
         cout << i << endl;
     }
     return 0;
